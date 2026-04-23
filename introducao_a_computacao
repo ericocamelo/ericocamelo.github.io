@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Prof. Érico Castro</title>
+	</head>
+
+    
+		<body bgcolor="#cccccccc">
+
+            <table>
+                <tr>
+                    <th><a href="https://ericocamelo.github.io/"> Comunicação de Dados </a></th>
+                    <th><a href="https://ericocamelo.github.io/"> Redes de Computadores </a></th>
+                    <th><a href="https://ericocamelo.github.io/"> Montagem e Manutenção </a></th>
+                    <th><a href="https://ericocamelo.github.io/"> Introdução à Computação </a></th>
+                    <th><a href="https://ericocamelo.github.io/livro_dos_códigos.html"> Segurança da Informação </a></th>
+                </tr>
+               <tr>
+                    <td colspan="5">
+
+                    <h1>Introdução à Computação</h1>
+                    <ul>
+                        <li><a>Aula 1</a href="IC_Aula_1.pdf" target="frame"></li>
+                    </ul>
+
+
+                    <iframe name="frame" width="100%" height="500"></iframe>
+                    </td>
+                </tr>
+            </table>
+
+		</body>
+</html>
