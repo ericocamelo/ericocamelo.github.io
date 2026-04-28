@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Informática básica</title>
+
+       <link rel="stylesheet" href="style.css">
+	</head>
+
+    
+		<body bgcolor="#cccccccc">
+
+            <header>
+                <h1>Prof. Érico Castro</h1>
+            </header>
+   <!--
+             
+            <nav>
+                <a href="https://ericocamelo.github.io/"> Início </a>
+                <a href="https://ericocamelo.github.io/"> Disciplinas </a>
+                <a href="https://ericocamelo.github.io/"> Publicações </a>
+                <a href="https://ericocamelo.github.io/"> Projetos </a>
+                <a href="https://ericocamelo.github.io/"> Sugestões de Leitura </a>
+             
+
+            </nav>
+   -->
+
+            <div class="container">
+                
+                <aside> 
+                    <h2>Infornática básica</h2>
+
+                        <h3>Formatando Tabelas no Writer</h3>
+							              <a href="IB_Aula_1.pdf" target="frame">Atividade: Criando uma Carteira de Estudante</a>
+                            <a href="3-por-4">Download de foto</a>	
+                </aside>
+
+                <main>
+
+
+                    <iframe name="frame" width="100%" height="700"></iframe>
+
+
+                </main>
+            </div>
+            
+            <footer>
+                <p>e-mail: erico.melo@ifce.edu.br</p>
+            </footer>
+
+		</body>
+</html>
