@@ -44,8 +44,8 @@ Todo computador moderno é composto por quatro grandes subsistemas que interagem
 ```
 ┌─────────────┐       Barramento do Sistema        ┌─────────────┐
 │     CPU     │◄──────────────────────────────────►│   Memória   │
-│  (processa) │                                     │ (armazena)  │
-└──────┬──────┘                                     └─────────────┘
+│  (processa) │                                    │ (armazena)  │
+└──────┬──────┘                                    └─────────────┘
        │
        │ Barramento de E/S
        ▼
@@ -84,13 +84,13 @@ A grande inovação foi o **programa armazenado**: instruções e dados residem 
 
 ```
          ┌──────────────────────────────────────┐
-         │           Memória Principal           │
+         │           Memória Principal          │
          │   [ Instruções | Dados ]             │
          └───────────────┬──────────────────────┘
                          │
          ┌───────────────▼──────────────────────┐
-         │           Unidade de Controle         │
-         │   (busca, decodifica, coordena)       │
+         │           Unidade de Controle        │
+         │   (busca, decodifica, coordena)      │
          └───────────────┬──────────────────────┘
                          │
     ┌────────────────────▼───────────────────────┐
@@ -99,7 +99,7 @@ A grande inovação foi o **programa armazenado**: instruções e dados residem 
     └────────────────────┬───────────────────────┘
                          │
          ┌───────────────▼──────────────────────┐
-         │         Dispositivos de E/S           │
+         │         Dispositivos de E/S          │
          │   (entrada: teclado) (saída: tela)   │
          └──────────────────────────────────────┘
 ```
@@ -230,9 +230,9 @@ A ISA (Instruction Set Architecture) é o contrato entre o hardware e o software
 O clock é o **sinal de sincronismo** do processador — um oscilador de cristal de quartzo que gera pulsos elétricos regulares, alternando entre 0 e 1 em frequência constante.
 
 ```
-        _   _   _   _   _   _
-       | | | | | | | | | | | |
-  _____|_| |_| |_| |_| |_| |_|_____
+        _   _   _   _   _    _
+       | | | | | | | | | |  | |
+  _____| |_| |_| |_| |_| |_ | |_____
 
   ◄──────────────────────────────►
                tempo
